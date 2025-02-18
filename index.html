@@ -1,16 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-  </head>
-  <body class="d-flex flex-parent-center h-100vh">
-    <div class="box-200px [background]-blue br-8px">hello world</div>
-    <div id="app"></div>
-    <script type="module">
+    <script defer type="module">
       import 'virtual:anyframe.css'
     </script>
+  </head>
+  <body class="bg-neutral-50 text-neutral-950">
+    <header class="pn-fixed [t,l,r]-0 w-mx-1280px mx-auto p-2rem flex ai-center jc-space-between">
+      <span class="fw-600 fs-1em ls--0.015em">✨ AnyWeb</span>
+      <nav class="flex gap-1rem fs-0.785em fw-500">
+        <span>Home</span>
+        <span>Docs</span>
+        <span>Contact</span>
+      </nav>
+    </header>
+    <main class="p-20px h-100vh center">
+      <h1 class="fs-2rem fw-500 ls--0.025em ta-center w-mx-600px">
+        Welcome, Hooman! This page is built with AnyFrame and TenoxUI!
+      </h1>
+    </main>
+    <footer class="p-2rem center ta-center gap-8px flex-d-column">
+      <p class="text-neutral-600 fs-14px ls--0.015em ta-center">
+        Built with <span class="td-underline text-neutral-950">AnyFrame</span>
+      </p>
+      <p class="text-neutral-600 fs-14px ls--0.015em ta-center">Copyright © 2025 NOuSantx</p>
+    </footer>
   </body>
 </html>
